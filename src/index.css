@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*:not(ul, ol, li),
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-main);
+  color: #fff;
+  min-height: 100vh;
+}
+
+:root {
+  --clr-main: #121212;
+  --clr-accent: #673ab7;
+  --clr-accent-300: #9575cd;
+  --clr-mobile-nav: hsla(0, 0%, 8%, 0.98);
+
+  --clr-btn-neutral-inactive: #bbb;
+  --clr-btn-neutral-active: #fff;
+  --clr-btn-red: #f44336;
+
+  --bg-item: hsla(0, 0%, 100%, 0.04);
+
+  --txt-white: #fff;
+  --txt-400: #ddd;
+  --txt-btn-neutral-inactive: #bbb;
+  --txt-btn-neutral-active: #111;
+  --clr-btn-red-inactive: #f44336;
+  --clr-btn-red-active: #fff;
+
+  --fs-nav-heading: 1.25rem;
+
+  --fs-hero: 2rem;
+  --fs-subhero: 1rem;
+
+  --fs-heading: 1.5rem;
+  --fs-text: 1rem;
+
+  --fs-card-heading: 0.75rem;
+  --fs-card: 0.75rem;
+}
+
+.App {
+  width: calc(100% - 2em);
+  max-width: 60em;
+  margin: 4.5em auto;
+}

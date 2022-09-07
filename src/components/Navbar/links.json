@@ -1,0 +1,31 @@
+{
+  "links": [
+    {
+      "name": "Strona Główna",
+      "url": "#",
+      "svg": "home.svg"
+    },
+    {
+      "name": "Sklep",
+      "url": "#",
+      "svg": "shop.svg"
+    },
+    {
+      "name": "Profil",
+      "url": "#",
+      "svg": "user.svg",
+      "sublinks": [
+        {
+          "name": "Ustawienia Profilu",
+          "url": "#",
+          "svg": "gear.svg"
+        },
+        {
+          "name": "Wystawione",
+          "url": "#",
+          "svg": "basket.svg"
+        }
+      ]
+    }
+  ]
+}
