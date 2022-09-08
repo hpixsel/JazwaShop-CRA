@@ -5,14 +5,17 @@ import classNames from 'classnames'
 
 export default function Navbar() {
   const [openNav, setOpenNav] = useState(false)
-  const sublinkClass = classNames(styles.link, styles.sublink)
-
+  
   const links = data.links.map(link => {
+    const linkWithSub = classNames(styles.link, {[styles.with_sublinks]: link.sublinks})
+    const sublinkClass = classNames(styles.link, styles.sublink)
+
     return (
       <>
-        <a className={styles.link} href={link.url} key={link.url}>
-          <img src={process.env.PUBLIC_URL + "/assets/" + link.svg} alt="svg" />
+        <a className={linkWithSub} href={link.url} key={link.url}>
+          <img src={process.env.PUBLIC_URL + "/assets/" + link.svg} alt="svg"/>
           <p>{link.name}</p>
+          {link.sublinks && <img className={styles.link__arrow} src={process.env.PUBLIC_URL + "/assets/arrow.svg"} alt="svg" />}
         </a>
         {link.sublinks && link.sublinks.map(sublink => {
           return (
@@ -22,19 +25,6 @@ export default function Navbar() {
             </a>
           )
         })}
-        {/* <img src={process.env.PUBLIC_URL + "/assets/" + links.svg} alt="svg" />
-        <p>{links.name}</p>
-        {links.sublinks && 
-        <ul>
-          {links.sublinks.map(sublink => {
-            return (
-              <>
-              <img src={process.env.PUBLIC_URL + "/assets/" + sublink.svg} alt="svg" />
-              <li>{sublink.name}</li>
-              </>
-            )
-          })}
-        </ul>} */}
       </>
     )
   })
@@ -49,17 +39,17 @@ export default function Navbar() {
   const linksClass = classNames(styles.links, {[styles.openNav]: openNav})
   
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.nav}>
-        <div className={styles.nav__logo}>
+        <a className={styles.nav__logo} href="/">
           <img className={styles.nav__logo__img} src={process.env.PUBLIC_URL + "/assets/jazwastore.svg"} alt="logo" />
           <h3 className={styles.nav__logo__h3}>JaźwaStore</h3>
-        </div>
+        </a>
         <img src={process.env.PUBLIC_URL + "/assets/hamburger.svg"} alt="menu" onClick={toggleOpen} />
       </div>
       <div className={linksClass}>
         {links}
       </div>
-    </>
+    </div>
   )
 }

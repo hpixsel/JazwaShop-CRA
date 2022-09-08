@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "name": "Spis",
+      "items": [
+        {
+          "name": "Strona Główna",
+          "url": "/"
+        },
+        {
+          "name": "Sklep",
+          "url": "#2"
+        },
+        {
+          "name": "Profil",
+          "url": "#3"
+        }
+      ]
+    },
+    {
+      "name": "Kontakt",
+      "items": [
+        {
+          "name": "jazwahost@gmail.com"
+        },
+        {
+          "name": "yanushevitz@gmail.com"
+        },
+        {
+          "name": "adamusdev@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Autorzy",
+      "items": [
+        {
+          "name": "Kacper Adamus",
+          "role": "frontend",
+          "github": "https://github.com/hpixsel",
+          "website": "https://adamusdev.netlify.app"
+        },
+        {
+          "name": "Kacper Janusz",
+          "role": "backend",
+          "github": "https://github.com/yanushevitz"
+        }
+      ]
+    }
+  ]
+}
