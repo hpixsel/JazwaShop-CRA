@@ -34,7 +34,7 @@ body {
   --clr-btn-red-inactive: #f44336;
   --clr-btn-red-active: #fff;
 
-  --fs-nav-heading: 1.25rem;
+  --fs-nav-heading: 1.5rem;
 
   --fs-hero: 2rem;
   --fs-subhero: 1rem;
@@ -48,6 +48,10 @@ body {
 
 .App {
   width: calc(100% - 2em);
+  margin-inline: auto;
   max-width: 60em;
-  margin: 4.5em auto;
+}
+
+.container {
+  padding-top: 5rem;
 }

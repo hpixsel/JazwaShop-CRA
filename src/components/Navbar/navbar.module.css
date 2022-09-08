@@ -1,31 +1,66 @@
 .nav {
   position: fixed;
   inset: 0 0 auto 0;
-  padding: 1em;
+  padding-block: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--clr-main, #000);
+  background: var(--clr-main, #121212);
+  width: calc(100% - 2em);
+  margin-inline: auto;
+  max-width: 60em;
 }
 
 .nav__logo {
   font-size: var(--fs-nav-heading);
   font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .links {
   background-color: var(--clr-mobile-nav);
   position: fixed;
-  inset: 4rem 0 0 0;
-  padding: 1rem;
-  translate: -400px;
+  inset: 4.9rem 0 0 0;
+  padding-inline: 1rem;
   opacity: 0;
+  pointer-events: none;
+  /* translate: -400px;
   transition: 
     translate 250ms ease-in-out,
-    opacity 250ms ease-in-out 125ms;
+    opacity 250ms ease-in-out 125ms; */
 }
 
 .openNav {
-  translate: 0;
+  /* translate: 0; */
   opacity: 1;
+  pointer-events: all;
+}
+
+.nav__logo__img {
+  width: 3rem;
+}
+
+.nav__logo__h3 {
+  font-size: var(--fs-nav-heading);
+}
+
+/* navlinks */
+.link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 0.75rem;
+  text-decoration: none;
+}
+
+.link p {
+  color: var(--txt-400);
+  font-weight: 700;
+}
+
+.sublink {
+  padding-left: 1.5rem;
 }

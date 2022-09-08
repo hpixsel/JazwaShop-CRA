@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae velit mollitia repellat quisquam, excepturi explicabo magni inventore eius veniam a! Voluptatum aut dolore hic at assumenda explicabo modi perspiciatis. Fugit.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident sint debitis eum illo quisquam distinctio, sed labore error ipsa impedit exercitationem nesciunt libero delectus nemo blanditiis, qui necessitatibus dolorum.</p>
       </Layout>
     </div>
   );
