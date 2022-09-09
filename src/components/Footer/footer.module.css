@@ -5,4 +5,47 @@
   margin-inline: auto;
   max-width: 65em;
   padding-block: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.3;
+}
+
+.footerItems > p {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.items {
+  margin-top: 0.125rem;
+}
+
+.items a, .items p {
+  text-decoration: none;
+  color: var(--txt-400);
+}
+
+.items span {
+  color: #bbb;
+  font-size: 0.925rem;
+}
+
+.items__icons {
+  display: flex;
+  gap: 0.5rem;
+  padding-block: 0.5rem 1rem;
+}
+
+.items__icons img {
+  width: 2rem;
+}
+
+@media (min-width: 65em) {
+  .container {
+    flex-direction: row;
+    gap: 10rem;
+    justify-content: center;
+    padding-top: 4rem;
+  }
 }

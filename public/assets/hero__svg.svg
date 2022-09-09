@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="337" height="321" fill="none" viewBox="0 0 337 321">
+  <g class="hero__svg">
+    <circle cx="243" cy="78" r="243" fill="#673AB7" class="Ellipse 1"/>
+    <ellipse cx="245.5" cy="70.5" fill="#9575CD" class="Ellipse 2" rx="240.5" ry="235.5"/>
+  </g>
+</svg>

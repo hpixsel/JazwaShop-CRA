@@ -1,12 +1,11 @@
 .nav {
   position: fixed;
   inset: 0 0 auto 0;
-  padding-block: 1em;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--clr-main, #121212);
-  width: calc(100% - 2em);
   margin-inline: auto;
   max-width: 65em;
   z-index: 100;
@@ -88,9 +87,9 @@
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 3rem;
+    margin-left: 20rem;
     justify-content: space-between;
-    flex-basis: 90%;
+/*     flex-basis: 90%; */
   }
 
   .link {

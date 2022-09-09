@@ -1,0 +1,12 @@
+.container {
+  /* max-width: 90%;
+  margin: auto;
+  margin-right: 2rem; */
+}
+
+.card {
+  background-color: red;
+  border-radius: 8px;
+  margin-inline: 1rem;
+  width: 80% !important;
+}

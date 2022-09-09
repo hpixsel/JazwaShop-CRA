@@ -1,10 +1,13 @@
+import Hero from "./components/Hero";
 import Layout from "./components/Layout";
+import Slider from "./components/Slider"
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, provident sint debitis eum illo quisquam distinctio, sed labore error ipsa impedit exercitationem nesciunt libero delectus nemo blanditiis, qui necessitatibus dolorum.</p>
+        <Hero />
+        <Slider />
       </Layout>
     </div>
   );
