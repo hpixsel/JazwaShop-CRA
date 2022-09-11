@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 30 30">
+  <g class="facebook" clip-path="url(#a)">
+    <path fill="#fff" fill-rule="evenodd" d="M0 15.084C0 22.54 5.416 28.743 12.5 30V19.166H8.75V15h3.75v-3.334c0-3.75 2.416-5.832 5.834-5.832 1.082 0 2.25.166 3.332.332V10H19.75c-1.834 0-2.25.916-2.25 2.084V15h4l-.666 4.166H17.5V30C24.584 28.742 30 22.543 30 15.084 30 6.788 23.25 0 15 0S0 6.787 0 15.084Z" class="Vector" clip-rule="evenodd"/>
+  </g>
+  <defs>
+    <clipPath id="a" class="a">
+      <path fill="#fff" d="M0 0h30v30H0z"/>
+    </clipPath>
+  </defs>
+</svg>

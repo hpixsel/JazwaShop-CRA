@@ -17,6 +17,10 @@ body {
   padding-bottom: 32rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 :root {
   --clr-main: #121212;
   --clr-accent: #673ab7;
@@ -57,4 +61,11 @@ body {
 .container {
   padding-top: 5rem;
   position: relative;
+  z-index: -1;
+}
+
+@media (min-width: 65em) {
+  body {
+    padding-bottom: 18rem;
+  }
 }
