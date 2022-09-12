@@ -56,12 +56,16 @@ img {
   width: calc(100% - 2em);
   margin-inline: auto;
   max-width: 65em;
+  z-index: 999;
 }
 
 .container {
   padding-top: 5rem;
   position: relative;
-  z-index: -1;
+}
+
+.container > * {
+  z-index: 0;
 }
 
 @media (min-width: 65em) {

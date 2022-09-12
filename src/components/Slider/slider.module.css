@@ -2,6 +2,7 @@
   overflow: hidden;
   width: 100vw;
   margin-left: -2.05rem;
+  margin-block: 2rem;
 }
 
 .card {

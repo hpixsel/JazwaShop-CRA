@@ -8,7 +8,7 @@
   background: var(--clr-main, #121212);
   margin-inline: auto;
   max-width: 65em;
-  z-index: 100;
+  z-index: 9999999;
 }
 
 .nav__logo {
@@ -114,5 +114,6 @@
     inset: 0 0 auto 0;
     max-width: 65rem;
     margin: auto;
+    z-index: 99999999;
   }
 }

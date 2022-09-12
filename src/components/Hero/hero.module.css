@@ -15,7 +15,7 @@
   align-items: right;
   flex-direction: column;
   margin-right: 1rem;
-  z-index: 1;
+  z-index: 0;
 }
 
 .hero__text h1 {

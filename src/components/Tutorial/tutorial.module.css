@@ -1,0 +1,66 @@
+.svg {
+  position: absolute;
+  inset: 0;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 10%;
+  z-index: -1;
+}
+
+.container {
+  min-height: 2rem;
+  position: relative;
+  box-shadow: 50vw 0 0 0 var(--clr-accent), -50vw 0 0 0 var(--clr-accent);
+  background-color: var(--clr-accent);
+  margin-top: 4rem;
+}
+
+.content {
+  padding: 3rem 0;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.content__text__points {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-inline: 1rem;
+  width: max-content;
+  margin: auto;
+}
+
+.content__text__row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 65em) {
+  .svg {
+    position: static;
+    opacity: 1;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+  }
+
+  .content__text h2 {
+    text-align: left;
+  }
+  
+  .content__text__points {
+    padding-left: 0;
+  }
+}

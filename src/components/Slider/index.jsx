@@ -8,29 +8,33 @@ export default function index() {
     infinite: true,
     centerMode: true,
     slidesToShow: 4,
-    centerPadding: '50px',
     arrows: false,
     autoplay: true,
     mobileFirst: true,
     pauseOnHover: true,
     speed: 500,
+    centerPadding: '0px',
+    focusOnSelect: true,
     responsive: [
       {
         breakpoint: 470,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          centerPadding: '50px'
         }
       },
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 2,
+          centerPadding: '50px'
         }
       },
       {
         breakpoint: 1040,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 3,
+          centerPadding: '50px'
         }
       }
     ]

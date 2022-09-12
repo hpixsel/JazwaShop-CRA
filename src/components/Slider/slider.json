@@ -53,6 +53,32 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com"
+    },
+    {
+      "title": "Matematyka 3",
+      "img": "placeholder-image.jpg",
+      "name": "Jan Kowalski",
+      "tel": "531875233",
+      "price": 20,
+      "mail": "jan@kowalski.pl",
+      "fb": "https://facebook.com"
+    },{
+      "title": "Matematyka 3",
+      "img": "placeholder-image.jpg",
+      "name": "F?IBIIBIB",
+      "tel": "531875233",
+      "price": 20,
+      "mail": "jan@kowalski.pl",
+      "fb": "https://facebook.com"
+    },
+    {
+      "title": "Matematyka 3",
+      "img": "placeholder-image.jpg",
+      "name": "Jan Kowalski",
+      "tel": "531875233",
+      "price": 20,
+      "mail": "jan@kowalski.pl",
+      "fb": "https://facebook.com"
     }
   ]
 }
