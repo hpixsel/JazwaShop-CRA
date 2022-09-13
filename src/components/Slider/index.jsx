@@ -10,9 +10,8 @@ export default function index() {
     slidesToShow: 4,
     arrows: false,
     autoplay: true,
-    mobileFirst: true,
     pauseOnHover: true,
-    speed: 500,
+    speed: 1000,
     centerPadding: '0px',
     focusOnSelect: true,
     responsive: [
@@ -20,21 +19,21 @@ export default function index() {
         breakpoint: 470,
         settings: {
           slidesToShow: 1,
-          centerPadding: '50px'
+          centerPadding: '64px'
         }
       },
       {
         breakpoint: 700,
         settings: {
           slidesToShow: 2,
-          centerPadding: '50px'
+          centerPadding: '64px'
         }
       },
       {
         breakpoint: 1040,
         settings: {
           slidesToShow: 3,
-          centerPadding: '50px'
+          centerPadding: '64px'
         }
       }
     ]
@@ -45,7 +44,7 @@ export default function index() {
       <Slider {...settings} className={styles.slider}>
         {tempData.slider.map(slide => {
           return (
-            <div className={styles.card}>
+            <div className={styles.card} key={slide.id}>
               <img src={process.env.PUBLIC_URL + "/assets/" + slide.img} alt="" />
               <div className={styles.card__text}>
                 <div className={styles.card__text__heading}>
@@ -55,7 +54,7 @@ export default function index() {
                 <p>{slide.name}</p>
                 <div className={styles.card__text__contact}>
                   <div>
-                    <p>Tel: {slide.tel}</p>
+                    <p>Tel: {slide.tel.slice(0,3)} {slide.tel.slice(3,6)} {slide.tel.slice(6,9)}</p>
                     <p>Email: {slide.mail}</p>
                   </div>
                   <a href={slide.fb} target="_blank">

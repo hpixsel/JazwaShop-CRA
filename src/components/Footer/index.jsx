@@ -9,7 +9,7 @@ export default function Footer() {
         <p>{data.name}:</p>
         {data.items && data.items.map(item => {
           return (
-            <div className={styles.items}>
+            <div className={styles.items} key={item.name}>
               {item.url
                 ? <a href={item.url}>{item.name}</a>
                 : <p>{item.name} {item.role && <span> - {item.role}</span>}</p> 

@@ -11,8 +11,8 @@ export default function Navbar() {
     const sublinkClass = classNames(styles.link, styles.sublink)
 
     return (
-      <>
-        <a className={linkWithSub} href={link.url} key={link.url}>
+      <div key={link.url}>
+        <a className={linkWithSub} href={link.url}>
           <img src={process.env.PUBLIC_URL + "/assets/" + link.svg} alt="svg"/>
           <p>{link.name}</p>
           {link.sublinks && <img className={styles.link__arrow} src={process.env.PUBLIC_URL + "/assets/arrow.svg"} alt="svg" />}
@@ -25,7 +25,7 @@ export default function Navbar() {
             </a>
           )
         })}
-      </>
+      </div>
     )
   })
 

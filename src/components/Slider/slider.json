@@ -1,6 +1,7 @@
 {
   "slider": [
     {
+      "id": "ce60e28d-a6e4-4082-88c3-0c17fdf91653",
       "title": "Matematyka 3",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
@@ -10,6 +11,7 @@
       "fb": "https://facebook.com"
     },
     {
+      "id": "3526ba9e-0596-438f-939e-1408a276eff3",
       "title": "Matematyka 3",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
@@ -19,6 +21,7 @@
       "fb": "https://facebook.com"
     },
     {
+      "id": "a866dc35-960b-41b8-98e1-de2bddab3994",
       "title": "Matematyka 3",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
@@ -28,6 +31,7 @@
       "fb": "https://facebook.com"
     },
     {
+      "id": "e2c88fe3-c1b9-4331-9bec-9c88b65aee06",
       "title": "Matematyka 3",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
@@ -37,6 +41,7 @@
       "fb": "https://facebook.com"
     },
     {
+      "id": "f4667854-77ed-4db8-bfcd-7fd5037a99bd",
       "title": "Matematyka 3",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
@@ -46,33 +51,8 @@
       "fb": "https://facebook.com"
     },
     {
-      "title": "Matematyka 3",
-      "img": "placeholder-image.jpg",
-      "name": "Jan Kowalski",
-      "tel": "531875233",
-      "price": 20,
-      "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
-    },
-    {
-      "title": "Matematyka 3",
-      "img": "placeholder-image.jpg",
-      "name": "Jan Kowalski",
-      "tel": "531875233",
-      "price": 20,
-      "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
-    },{
-      "title": "Matematyka 3",
-      "img": "placeholder-image.jpg",
-      "name": "F?IBIIBIB",
-      "tel": "531875233",
-      "price": 20,
-      "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
-    },
-    {
-      "title": "Matematyka 3",
+      "id": "46487834-921a-4773-af90-7004b3d8486e",
+      "title": "Matematyka 3 aaaaaaaaa",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
       "tel": "531875233",
