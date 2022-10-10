@@ -1,7 +1,7 @@
 .container {
   overflow: hidden;
   width: 100vw;
-  margin-left: -1rem;
+  margin-inline: -1rem;
   margin-block: 2rem;
 }
 
@@ -9,8 +9,8 @@
   background-color: var(--bg-item);
   border-radius: 8px;
   width: 95% !important;
-  overflow: hidden;
   margin-inline: 2.5%;
+  overflow: hidden;
 }
 
 .card > img {
@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .card__text__heading h3 {
@@ -46,6 +47,10 @@
   color: var(--txt-white);
   font-size: var(--fs-card);
   font-weight: 400;
+}
+
+.tooltip {
+  display: none;
 }
 
 .card__text__contact {
@@ -63,5 +68,25 @@
   .container {
     width: 100%;
     margin-left: 0;
+  }
+
+  .tooltip {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(100% + 1.1em);
+    left: -0.25rem;
+
+    background-color: #121212;
+    padding: 0.25em 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    transition: opacity 125ms ease-in-out;
+    overflow: hidden;
+  }
+
+  .card__text__heading:hover .tooltip {
+    opacity: 1;
+    max-width: 103.5%;
   }
 }

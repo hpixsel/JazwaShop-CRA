@@ -1,15 +1,13 @@
-import Hero from "./components/Hero";
 import Layout from "./components/Layout";
-import Slider from "./components/Slider"
-import Tutorial from "./components/Tutorial";
+import Main from "./pages/Main";
+import Store from "./pages/Store";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Hero />
-        <Slider />
-        <Tutorial />
+        {/* <Main /> */}
+        <Store />
       </Layout>
     </div>
   );

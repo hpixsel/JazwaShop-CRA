@@ -8,7 +8,9 @@
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     },
     {
       "id": "3526ba9e-0596-438f-939e-1408a276eff3",
@@ -18,7 +20,9 @@
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     },
     {
       "id": "a866dc35-960b-41b8-98e1-de2bddab3994",
@@ -28,7 +32,9 @@
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     },
     {
       "id": "e2c88fe3-c1b9-4331-9bec-9c88b65aee06",
@@ -38,7 +44,9 @@
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     },
     {
       "id": "f4667854-77ed-4db8-bfcd-7fd5037a99bd",
@@ -48,17 +56,21 @@
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     },
     {
       "id": "46487834-921a-4773-af90-7004b3d8486e",
-      "title": "Matematyka 3 aaaaaaaaa",
+      "title": "Matematyka 3 aaaaaaaaaadfsfdsdgagaggagafdgfagdfaaaaaaaaaaaaaaaadsfsda",
       "img": "placeholder-image.jpg",
       "name": "Jan Kowalski",
       "tel": "531875233",
       "price": 20,
       "mail": "jan@kowalski.pl",
-      "fb": "https://facebook.com"
+      "fb": "https://facebook.com",
+      "class": "4TI2p",
+      "subject": "Matematyka"
     }
   ]
 }
