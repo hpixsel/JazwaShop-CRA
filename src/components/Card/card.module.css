@@ -1,0 +1,92 @@
+.card {
+  background-color: var(--bg-item);
+  border-radius: 8px;
+  width: var(--width, 100%);
+  margin-inline: var(--margin-inline, 0);
+  overflow: hidden;
+}
+
+.card > img {
+  width: 100%;
+  aspect-ratio: 5/4;
+  object-fit: cover;
+}
+
+.card__text {
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.card__text p {
+  color: var(--txt-400);
+  font-weight: 400;
+}
+
+.card__text__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.card__text__heading h3 {
+  max-width: 19ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card__text__heading p {
+  color: var(--txt-white);
+  font-size: var(--fs-card);
+  font-weight: 400;
+}
+
+.tooltip {
+  display: none;
+}
+
+.card__text__contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0.75rem;
+}
+
+.card__text__contact img {
+  width: 2rem;
+}
+
+.email {
+  max-width: 22ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.email__span {
+  cursor: pointer;
+}
+
+@media (min-width: 65em) {
+  .tooltip {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(100% + 0.1em);
+    left: -0.25rem;
+
+    background-color: var(--clr-accent);
+    padding: 0.25em 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    transition: opacity 125ms ease-in-out;
+    overflow: hidden;
+    max-width: 103.5%;
+    text-overflow: ellipsis;
+  }
+
+  .card__text__heading:hover .tooltip {
+    opacity: 1;
+  }
+}

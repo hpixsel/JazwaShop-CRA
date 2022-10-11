@@ -40,10 +40,11 @@ export default function Store() {
           <label htmlFor="class">Klasa:</label>
           <select name="klasa" id="class" onInput={e => setClassSelect(e.target.value)}>
             <option value=""></option>
-            <option value="1TI2">1TI2</option>
-            <option value="2TI2">2TI2</option>
-            <option value="3TI2">3TI2</option>
-            <option value="4TI2p">4TI2p</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
         </div>
         <div className={styles.filters__child}>

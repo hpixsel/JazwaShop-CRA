@@ -9,7 +9,7 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     },
     {
@@ -21,7 +21,7 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     },
     {
@@ -33,7 +33,7 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     },
     {
@@ -45,7 +45,7 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     },
     {
@@ -57,7 +57,7 @@
       "price": 20,
       "mail": "jan@kowalski.pl",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     },
     {
@@ -67,9 +67,9 @@
       "name": "Jan Kowalski",
       "tel": "531875233",
       "price": 20,
-      "mail": "jan@kowalski.pl",
+      "mail": "kacper.adamus@gmail.com",
       "fb": "https://facebook.com",
-      "class": "4TI2p",
+      "class": "4",
       "subject": "Matematyka"
     }
   ]
