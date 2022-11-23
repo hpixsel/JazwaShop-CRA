@@ -1,9 +1,17 @@
 import React, { useRef } from 'react'
 import styles from './card.module.css'
+import classNames from 'classnames'
 
 export default function Card(slide) {
+  const toast = useRef(null)
+
   const copyEmail = (e) => {
     navigator.clipboard.writeText(e.target.innerText)
+    toast.current.className = classNames(styles.toast, styles.active)
+
+    setTimeout(()=> {
+      toast.current.className = classNames(styles.toast)
+    }, 1500)
   }
 
   return (
@@ -25,6 +33,9 @@ export default function Card(slide) {
             <img src={process.env.PUBLIC_URL + "/assets/facebook.svg"} alt="facebook" />
           </a>
         </div>
+      </div>
+      <div className={styles.toast} ref={toast}>
+        <p>Skopiowano Email</p>
       </div>
     </div>
   )

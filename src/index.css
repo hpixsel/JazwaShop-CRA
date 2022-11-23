@@ -15,10 +15,21 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 32rem;
+  overflow-y: scroll;
 }
 
 img {
   max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--clr-main);
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #252525;
+  border-radius: 1rem;
 }
 
 :root {

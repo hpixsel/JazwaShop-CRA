@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <g class="akar-icons:circle-x-fill" clip-path="url(#a)">
+    <path fill="#F44336" fill-rule="evenodd" d="M8 .667a7.333 7.333 0 1 0 0 14.667A7.333 7.333 0 0 0 8 .667Zm2.47 5.803a.667.667 0 0 0-.943-.942L8 7.057 6.47 5.53a.667.667 0 1 0-.942.942L7.056 8 5.528 9.529a.667.667 0 1 0 .943.942L8 8.943l1.528 1.528a.667.667 0 0 0 .943-.942L8.943 8l1.528-1.529Z" class="Vector" clip-rule="evenodd"/>
+  </g>
+  <defs>
+    <clipPath id="a" class="a">
+      <path fill="#fff" d="M0 0h16v16H0z"/>
+    </clipPath>
+  </defs>
+</svg>

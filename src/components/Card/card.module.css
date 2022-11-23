@@ -4,6 +4,7 @@
   width: var(--width, 100%);
   margin-inline: var(--margin-inline, 0);
   overflow: hidden;
+  position: relative;
 }
 
 .card > img {
@@ -27,10 +28,10 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  gap: 0.5rem;
 }
 
 .card__text__heading h3 {
-  max-width: 19ch;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -66,6 +67,25 @@
 
 .email__span {
   cursor: pointer;
+}
+
+.toast {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: var(--clr-accent);
+  padding: 0.25em 0.75em;
+  border-radius: 8px;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 125ms ease-in-out;
+}
+
+.active {
+  opacity: 1;
 }
 
 @media (min-width: 65em) {

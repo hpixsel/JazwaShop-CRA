@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - (18rem + 5rem));
+  max-width: 35rem;
+  margin: auto;
+}
+
+.container :is(p, a) {
+  font-size: 0.75rem;
+  color: #bbb;
+}
+
+.container a {
+  color: #9575CD;
+}
+
+.container form {
+  width: 100%;
+}
+
+input + label {
+  margin-top: 1rem;
+}
+
+label, input[type="text"], input[type="password"] {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 0.4em 0.75em;
+  border: 0;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.bottom input {
+  padding: 0.5em 3em;
+  background-color: transparent;
+  border-color: #fff;
+  color: #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 75ms ease-in;
+  font-weight: bold;
+}
+
+.bottom input:hover {
+  background-color: var(--clr-accent);
+}
+
+@media (min-width: 65em) {
+  .bottom {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .centered {
+    justify-content: center;
+  }
+}
